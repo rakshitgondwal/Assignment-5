@@ -1,10 +1,12 @@
+
+#Question1
 print("\nWelcome to my Program")
 char = str(input("Kindly enter a string : "))
 print("\nThe string in reverse order : ")
 print(char[::-1])
 
 
-
+#Question2
 print("\nWelcome to my Program")
 lrange = int(input("Kindly enter the lower limit of the divisibility range : "))
 uprange = int(input("Kindly enter the upper limit of the divisibility range : "))
@@ -15,7 +17,7 @@ for i in range(lrange , uprange + 1):
       print(i)
         
         
-        
+#Question3        
 print("\nWelcome to my Program")
 import math
 a = int(input("Please enter the length of side 1 : "))
@@ -32,7 +34,7 @@ while ((a+b)<c) or ((a+c)<b) or ((b+c)<a):
     
     
     
-    
+#Question4    
 print("\nWelcome to my Program")
 n=5
 for i in range(n):
@@ -50,7 +52,7 @@ for i in range(n,0,-1):
     
     
     
-    
+#Question5    
 print("\nWelcome to my Program")
 asciichr = 65
 num = int(input("Kindly enter the number of rows : "))
@@ -68,7 +70,7 @@ for i in range(0,num):
     
     
     
-    
+#Question6    
 print("\nWelcome to my Program")
 print()
 lrange = int(input("Kindly enter the lower limit : "))
@@ -89,7 +91,7 @@ for num in range(lrange, uprange + 1):
             
             
             
-            
+#Question7            
  print("\nWelcome to my Program")
 print("\nBetween 1 and 500 the following numbers are multiple of 7 : ")
 for i in range(1,501) :
@@ -109,7 +111,7 @@ for i in range(1,501) :
         
         
         
-        
+#Question8        
 print("\nWelcome to my Program")
 postivenum=[]
 negativenum=[]
@@ -143,7 +145,7 @@ print("Occurrence of each number in the List : ",occurrence)
 
 
 
-
+#Question9
 print("\nWelcome to my Program")
 list = []
 ele = str(input("\nKindly enter a string : "))
